@@ -1,0 +1,78 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3.1 (win64) Build 2489853 Tue Mar 26 04:20:25 MDT 2019
+| Date         : Mon Aug 19 12:26:35 2019
+| Host         : mecha-7 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file synth_shell_control_sets_placed.rpt
+| Design       : synth_shell
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     8 |
+| Unused register locations in slices containing registers |    23 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      4 |            1 |
+|      6 |            1 |
+|      8 |            1 |
+|     12 |            1 |
+|     15 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              54 |           15 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              29 |            6 |
+| Yes          | No                    | No                     |              34 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               4 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------+---------------------------------------+---------------------------------------+------------------+----------------+
+|   Clock Signal  |             Enable Signal             |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++-----------------+---------------------------------------+---------------------------------------+------------------+----------------+
+|  mclk_IBUF_BUFG |                                       |                                       |                1 |              1 |
+|  clk_OBUF       | da_converter/shift_en                 | da_converter/load_en                  |                2 |              4 |
+|  mclk_IBUF_BUFG |                                       | clkdiv[5]_i_1_n_0                     |                1 |              6 |
+|  clk_OBUF       |                                       | da_converter/clear                    |                1 |              8 |
+|  clk_OBUF       | da_converter/shift_reg[11]_i_1_n_0    |                                       |                2 |             12 |
+|  clk_OBUF       |                                       | da_converter/take_sample_count_reg[4] |                4 |             15 |
+|  clk_OBUF       | da_converter/take_sample_count_reg[4] |                                       |                6 |             22 |
+|  clk_OBUF       |                                       |                                       |               14 |             55 |
++-----------------+---------------------------------------+---------------------------------------+------------------+----------------+
+
+

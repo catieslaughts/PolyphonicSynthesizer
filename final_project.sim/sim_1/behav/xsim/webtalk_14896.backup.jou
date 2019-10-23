@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Thu Aug 15 17:57:37 2019
+# Process ID: 14896
+# Current directory: P:/19summer/engs031/PG17/final_project/final_project.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source P:/19summer/engs031/PG17/final_project/final_project.sim/sim_1/behav/xsim/xsim.dir/midi_interface_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: P:/19summer/engs031/PG17/final_project/final_project.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: P:/19summer/engs031/PG17/final_project/final_project.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source P:/19summer/engs031/PG17/final_project/final_project.sim/sim_1/behav/xsim/xsim.dir/midi_interface_tb_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Mon Aug 19 11:12:45 2019
+# Process ID: 2584
+# Current directory: P:/19summer/engs031/PG17/final_project/final_project.runs/impl_1
+# Command line: vivado.exe -log synth_shell.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source synth_shell.tcl -notrace
+# Log file: P:/19summer/engs031/PG17/final_project/final_project.runs/impl_1/synth_shell.vdi
+# Journal file: P:/19summer/engs031/PG17/final_project/final_project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source synth_shell.tcl -notrace

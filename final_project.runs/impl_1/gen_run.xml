@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1566231894">
+  <File Type="BITSTR-BMM" Name="synth_shell_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="synth_shell_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="synth_shell_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="synth_shell_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="synth_shell.tcl"/>
+  <File Type="OPT-TIMING" Name="synth_shell_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="synth_shell_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="synth_shell_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="synth_shell_reports.tcl"/>
+  <File Type="OPT-DRC" Name="synth_shell_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="synth_shell.hwdef"/>
+  <File Type="PWROPT-DCP" Name="synth_shell_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="synth_shell_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="synth_shell_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="synth_shell_placed.dcp"/>
+  <File Type="PLACE-IO" Name="synth_shell_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="synth_shell_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="synth_shell_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="synth_shell_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="synth_shell_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="synth_shell_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="synth_shell_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="synth_shell.bgn"/>
+  <File Type="PLACE-TIMING" Name="synth_shell_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="synth_shell_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="synth_shell.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="synth_shell_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="synth_shell_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="synth_shell_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="synth_shell.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="synth_shell_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="synth_shell_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="synth_shell_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="synth_shell_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="synth_shell_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="synth_shell_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="synth_shell.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="synth_shell_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="synth_shell.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="synth_shell_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="synth_shell_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="synth_shell.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="synth_shell_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="synth_shell_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="synth_shell_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="synth_shell_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="synth_shell_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="synth_shell_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="synth_shell_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="synth_shell_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="synth_shell_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="synth_shell_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="synth_shell_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="synth_shell_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="synth_shell_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="synth_shell_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="synth_shell_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="synth_shell_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="synth_shell_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="synth_shell_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="synth_shell_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="synth_shell.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="synth_shell_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="synth_shell.rbt"/>
+  <File Type="BITSTR-NKY" Name="synth_shell.nky"/>
+  <File Type="BG-DRC" Name="synth_shell.drc"/>
+  <File Type="RDI-RDI" Name="synth_shell.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/dds_compiler_0_2/dds_compiler_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/da_interface.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pa.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/synth_shell.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/midi_interface.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_interface.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="synth_shell"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/synth.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/synth.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
